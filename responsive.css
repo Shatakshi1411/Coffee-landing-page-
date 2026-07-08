@@ -1,0 +1,139 @@
+@media (max-width:991px){
+
+    header{
+        padding:15px 5%;
+    }
+
+    section{
+        padding:90px 5%;
+    }
+
+    #home h2{
+        font-size:45px;
+    }
+
+    #home img{
+        width:380px;
+    }
+
+    #about img{
+        width:350px;
+    }
+
+}
+
+
+
+@media (max-width:768px){
+
+    header{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+    nav{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
+
+    nav a{
+        margin-left:0;
+        font-size:16px;
+    }
+
+    #home{
+        flex-direction:column-reverse;
+        text-align:center;
+        padding-top:150px;
+    }
+
+    #home h2{
+        font-size:38px;
+    }
+
+    #home img{
+        width:100%;
+        max-width:350px;
+    }
+
+    #about{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    #about img{
+        width:100%;
+        max-width:350px;
+    }
+
+    .box{
+        margin-bottom:20px;
+    }
+
+    #menu{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    #reviews{
+        display:grid;
+        gap:20px;
+    }
+
+    footer{
+        font-size:14px;
+    }
+
+}
+
+
+/* =========================
+   Small Mobile (480px)
+========================= */
+
+@media (max-width:480px){
+
+    header h1{
+        font-size:24px;
+    }
+
+    nav a{
+        font-size:14px;
+    }
+
+    #home h2{
+        font-size:30px;
+    }
+
+    #home p{
+        font-size:15px;
+    }
+
+    .btn{
+        display:inline-block;
+        padding:12px 22px;
+        font-size:15px;
+    }
+
+    .box img{
+        width:120px;
+    }
+
+    .box h3{
+        font-size:20px;
+    }
+
+    .box p{
+        font-size:14px;
+    }
+
+    #contact input,
+    #contact textarea{
+        padding:12px;
+    }
+
+}
